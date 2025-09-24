@@ -1,0 +1,347 @@
+{
+  "translations": {
+    "tabs": {
+      "planning": {
+        "title": "Mission Planning",
+        "tab": "Planning",
+        "path": "/planning/"
+      },
+      "realtime": {
+        "title": "Realtime",
+        "tab": "Realtime",
+        "path": "/realtime/"
+      },
+      "history": {
+        "title": "Route History",
+        "tab": "History",
+        "path": "/history/"
+      },
+      "missions": {
+        "title": "Planned Missions",
+        "tab": "Missions",
+        "path": "/missions/"
+      },
+      "shared": {
+        "back": "Back"
+      }
+    },
+    "components": {
+      "missionsTable": {
+        "endMessage": "There are no more missions",
+        "filters": {
+          "vehicle": "Vehicle",
+          "date": "Date",
+          "selectVehicle": "Select a vehicle",
+          "selectDate": "Select a date",
+          "allVehicles": "All vehicles",
+          "searchVehicle": "Search vehicle...",
+          "noVehicles": "No vehicles found",
+          "clear": "Clear filters"
+        },
+        "missionsItem": {
+          "details": {
+            "score": "Score",
+            "date": "Date",
+            "duration": "Duration"
+          },
+          "bottom": {
+            "distance": "km traveled",
+            "fuelEconomy": "Fuel Economy",
+            "fuelConsumption": "Consumption",
+            "emissions": "Emissions",
+            "duration": "Duration",
+            "totalMass": "Total Mass"
+          }
+        },
+        "createMission": {
+          "title": "Associate route with vehicle",
+          "description": "Do you want to associate this route with the selected vehicle?"
+        },
+        "editMission": {
+          "title": "Edit Mission"
+        },
+        "deleteMission": {
+          "title": "Delete Mission",
+          "description": "Are you sure you want to delete this mission?"
+        }
+      },
+      "mapVehicleTooltip": {
+        "model": "Model",
+        "score": "Score",
+        "consumption": "Consumption",
+        "emissions": "Emissions",
+        "remainingTime": "Remaining time",
+        "position": "Position",
+        "speed": "Speed",
+        "fuelConsumed": "Fuel consumed",
+        "lastUpdate": "Updated at"
+      },
+      "historyTable": {
+        "endMessage": "There are no more routes",
+        "filters": {
+          "vehicle": "Vehicle",
+          "date": "Date",
+          "selectVehicle": "Select a vehicle",
+          "selectDate": "Select a date",
+          "allVehicles": "All vehicles",
+          "searchVehicle": "Search vehicle...",
+          "noVehicles": "No vehicles found",
+          "clear": "Clear filters"
+        }
+      },
+      "vehicleDataCard": {
+        "title": "Vehicle Data",
+        "subtitle": "Detailed vehicle information",
+        "licensePlate": "License Plate",
+        "vehicle": "Vehicle Type",
+        "vehicleWeight": "Weight",
+        "vehiclePayload": "Payload",
+        "vehicleFuel": "Fuel",
+        "vehicleType": "Vehicle Type",
+        "model": "Model",
+        "power": "Power",
+        "totalWeight": "Total Weight",
+        "payload": "Total Payload",
+        "optimalConsumption": "Optimal Consumption",
+        "energySavings": "Energy Savings",
+        "optimalVsReference": "Optimal vs Reference",
+        "fuelSavings": "Fuel Savings",
+        "fuelSavingsVsOptimal": "Optimal vs Reference",
+        "notAvailable": "N/A"
+      },
+      "routeDataCard": {
+        "title": "Route Data",
+        "subtitle": "Route information",
+        "origin": "Origin",
+        "destination": "Destination",
+        "duration": "Duration",
+        "eta": "Estimated Time",
+        "distance": "Distance",
+        "steps": "Steps",
+        "step": "Step",
+        "totalDistance": "Total Distance",
+        "notAvailable": "N/A",
+        "showDetails": "Show details",
+        "hideDetails": "Hide details",
+        "routeSteps": "Route steps",
+        "timeStart": "Date"
+      },
+      "economicSavingsCard": {
+        "title": "Economic Savings"
+      },
+      "fuelSavingsCard": {
+        "title": "Fuel Savings"
+      },
+      "percentageSavingsCard": {
+        "title": "Potential"
+      },
+      "planningHeader": {
+        "results": "Results"
+      },
+      "analysisSummary": {
+        "potentialSavings": "Potential Savings"
+      },
+      "energeticAnalysisCard": {
+        "title": "Energy Analysis",
+        "subtitle": "Optimized consumption analysis",
+        "energySavings": {
+          "title": "Energy Savings",
+          "description": "Energy Savings"
+        },
+        "fuelSavings": {
+          "title": "Fuel Savings",
+          "description": "Fuel Savings"
+        },
+        "economicSavings": {
+          "title": "Economic Savings",
+          "description": ""
+        },
+        "optimalVsReference": "Optimal vs Reference"
+      }
+    },
+    "pages": {
+      "error": {
+        "title": "Error",
+        "message": "Something went wrong"
+      },
+      "planning": {
+        "title": "Planned Missions"
+      },
+      "history": {
+        "title": "Route history"
+      },
+      "realtime": {
+        "title": "Realtime",
+        "table": {
+          "columns": {
+            "vehicle": "Vehicle",
+            "score": "Score",
+            "fuelEconomy": "Fuel Economy",
+            "consumption": "Consumption",
+            "emissions": "Emissions"
+          }
+        }
+      }
+    },
+    "form": {
+      "preRouteStep1": {
+        "title": "Vehicle Configuration",
+        "vehicleId": {
+          "label": "Vehicle Selection",
+          "helperText": "Enter the license plate to search for the vehicle",
+          "placeholder": "Enter the vehicle license plate",
+          "error": "Enter a valid license plate"
+        },
+        "vehicleWeight": {
+          "label": "Total Weight (Tons)",
+          "helperText": "Enter the total weight of the vehicle",
+          "error": "Enter a valid weight"
+        },
+        "payload": {
+          "label": "Payload (Tons)",
+          "helperText": "Enter the vehicle payload",
+          "error": "Enter a valid payload"
+        },
+        "axleCount": {
+          "label": "Number of axles",
+          "helperText": "Enter the number of axles",
+          "error": "Enter a valid number of axles"
+        },
+        "submit": "Continue",
+        "error": {
+          "title": "Error",
+          "message": "Something went wrong"
+        }
+      },
+      "preRouteStep2": {
+        "title": "Route Configuration",
+        "description": "Enter route data or choose from planned ones",
+        "submit": "Continue",
+        "date": {
+          "label": "Date",
+          "error": "Enter a valid date"
+        },
+        "startLocation": {
+          "label": "Origin",
+          "placeholder": "Enter the departure address",
+          "error": "Enter a valid address"
+        },
+        "endLocation": {
+          "label": "Destination",
+          "placeholder": "Enter the destination",
+          "error": "Enter a valid address"
+        },
+        "stops": {
+          "label": "Intermediate stops",
+          "placeholder": "Enter the stop name",
+          "error": "Enter a valid name",
+          "add": "Add stop"
+        },
+        "optimizeRoute": "Optimize route"
+      },
+      "createMission": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter the mission name"
+        },
+        "success": "Association successful!"
+      },
+      "editMission": {
+        "vehicle": {
+          "label": "Vehicle",
+          "placeholder": "Select a vehicle",
+          "error": "Enter a valid vehicle",
+          "emptyMessage": "No vehicles found"
+        },
+        "date": {
+          "label": "Date",
+          "placeholder": "Enter a date",
+          "error": "Enter a valid date"
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter the mission name",
+          "error": "Enter a valid name"
+        }
+      },
+      "shared": {
+        "placeInput": {
+          "searchPlaceholder": "Search for a place...",
+          "emptyMessage": "No place found"
+        },
+        "next": "Next",
+        "back": "Back",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete"
+      }
+    },
+    "enums": {
+      "fuelTypeGroupId": {
+        "GroupPluginHybridElectricVehicleId": "Hybrid Electric",
+        "GroupFuelCellElectricVehicleId": "Hydrogen",
+        "GroupBatteryElectricVehicleId": "Electric",
+        "GroupManuallyClassifiedPowertrainId": "Other",
+        "GroupPropaneLiquifiedPetroleumGasId": "LPG",
+        "GroupOtherFuelId": "Other",
+        "GroupCompressedNaturalGasId": "CNG",
+        "GroupBiodieselId": "Biodiesel",
+        "GroupEthanolId": "Ethanol",
+        "GroupDieselId": "Diesel",
+        "GroupGasolinePetrolId": "Gasoline"
+      },
+      "vehicleType": {
+        "car": "Car",
+        "truck": "Truck",
+        "bus": "Bus"
+      },
+      "vehicleFuelType": {
+        "diesel": "Diesel",
+        "gasoline": "Gasoline",
+        "electric": "Electric",
+        "hybrid": "Hybrid",
+        "other": "Other"
+      }
+    },
+    "shared": {
+      "units": {
+        "km": "km",
+        "ton": "ton",
+        "axle": "axles",
+        "euro": "€",
+        "kgCo2": "kg CO₂",
+        "l": "l",
+        "km/h": "km/h",
+        "km/l": "km/l",
+        "kg": "kg",
+        "CO2": "CO₂"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Select a date"
+      },
+      "time": {
+        "label": "Time",
+        "placeholder": "Select a time"
+      },
+      "pagination": {
+        "page": "Page",
+        "of": "of",
+        "previous": "Previous",
+        "next": "Next",
+        "noResults": "No results found."
+      },
+      "vehicleStatus": {
+        "realTime": "Moving",
+        "stopped": "Stopped",
+        "unknown": "Unknown"
+      },
+      "places": {
+        "yourLocation": "Your location"
+      },
+      "loading": "Loading...",
+      "error": "Error"
+    }
+  }
+}
