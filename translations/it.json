@@ -1,0 +1,342 @@
+{
+  "translations": {
+    "tabs": {
+      "planning": {
+        "title": "Pianificazione Missione",
+        "tab": "Pianificazione",
+        "path": "/planning/"
+      },
+      "realtime": {
+        "title": "Realtime",
+        "tab": "Realtime",
+        "path": "/realtime/"
+      },
+      "history": {
+        "title": "Storico Tratte",
+        "tab": "Storico",
+        "path": "/history/"
+      },
+      "missions": {
+        "title": "Gestione Missioni",
+        "tab": "Missioni",
+        "path": "/missions/"
+      },
+      "shared": {
+        "back": "Indietro"
+      }
+    },
+    "components": {
+      "missionsTable": {
+        "endMessage": "Non ci sono più missioni",
+        "filters": {
+          "vehicle": "Veicolo",
+          "date": "Data",
+          "selectVehicle": "Seleziona un veicolo",
+          "selectDate": "Seleziona una data",
+          "allVehicles": "Tutti i veicoli",
+          "searchVehicle": "Cerca veicolo...",
+          "noVehicles": "Nessun veicolo trovato",
+          "clear": "Pulisci filtri"
+        },
+        "missionsItem": {
+          "details": {
+            "score": "Score",
+            "date": "Data",
+            "duration": "Durata"
+          },
+          "bottom": {
+            "distance": "km percorsi",
+            "fuelConsumption": "Consumi",
+            "emissions": "Emissioni",
+            "duration": "Durata",
+            "totalMass": "Massa totale"
+          }
+        },
+        "createMission": {
+          "title": "Associa tratta a veicolo",
+          "description": "Vuoi associare questa tratta al veicolo selezionato?"
+        },
+        "editMission": {
+          "title": "Modifica Missione"
+        },
+        "deleteMission": {
+          "title": "Elimina Missione",
+          "description": "Sei sicuro di voler eliminare questa missione?"
+        }
+      },
+      "historyTable": {
+        "endMessage": "Non ci sono più percorsi",
+        "filters": {
+          "vehicle": "Veicolo",
+          "date": "Data",
+          "selectVehicle": "Seleziona un veicolo",
+          "selectDate": "Seleziona una data",
+          "allVehicles": "Tutti i veicoli",
+          "searchVehicle": "Cerca veicolo...",
+          "noVehicles": "Nessun veicolo trovato",
+          "clear": "Pulisci filtri"
+        }
+      },
+      "vehicleDataCard": {
+        "title": "Informazioni sul veicolo",
+        "subtitle": "Dettagli del veicolo",
+        "licensePlate": "Targa",
+        "vehicle": "Tipo veicolo",
+        "vehicleWeight": "Peso",
+        "vehiclePayload": "Portata",
+        "vehicleFuel": "Carburante",
+        "vehicleType": "Tipo veicolo",
+        "model": "Modello",
+        "power": "Potenza",
+        "totalWeight": "Peso totale",
+        "payload": "Portata totale",
+        "optimalConsumption": "Consumo ottimale",
+        "energySavings": "Risparmio energetico",
+        "optimalVsReference": "Ottimale vs Riferimento",
+        "fuelSavings": "Risparmio carburante",
+        "fuelSavingsVsOptimal": "Ottimale vs Riferimento",
+        "notAvailable": "N/A"
+      },
+      "routeDataCard": {
+        "title": "Dati Percorso",
+        "subtitle": "Informazioni sul tragitto",
+        "origin": "Partenza",
+        "destination": "Destinazione",
+        "duration": "Durata",
+        "eta": "Tempo Stimato",
+        "distance": "Distanza",
+        "steps": "Tappe",
+        "step": "Tappa",
+        "totalDistance": "Distanza Totale",
+        "notAvailable": "N/A",
+        "showDetails": "Mostra dettagli percorso",
+        "hideDetails": "Nascondi dettagli percorso",
+        "routeSteps": "Tappe del percorso",
+        "timeStart": "Data"
+      },
+      "economicSavingsCard": {
+        "title": "Risparmio economico"
+      },
+      "fuelSavingsCard": {
+        "title": "Risparmio combustibile"
+      },
+      "planningHeader": {
+        "results": "Risultato"
+      },
+      "percentageSavingsCard": {
+        "title": "Potenziale"
+      },
+      "analysisSummary": {
+        "potentialSavings": "Risparmio potenziale"
+      },
+      "mapVehicleTooltip": {
+        "model": "Modello",
+        "score": "Score",
+        "consumption": "Consumo",
+        "emissions": "Emissioni",
+        "remainingTime": "Tempo residuo",
+        "position": "Posizione",
+        "speed": "Velocità",
+        "fuelConsumed": "Consumo",
+        "lastUpdate": "Aggiornato il"
+      },
+      "energeticAnalysisCard": {
+        "title": "Analisi energetica",
+        "subtitle": "Analisi dei consumi ottimizzati",
+        "energySavings": {
+          "title": "Risparmio energetico",
+          "description": "Risparmio energetico"
+        },
+        "fuelSavings": {
+          "title": "Risparmio carburante",
+          "description": "Risparmio carburante"
+        },
+        "economicSavings": {
+          "title": "Risparmio economico",
+          "description": ""
+        },
+        "optimalVsReference": "Ottimale vs Riferimento"
+      }
+    },
+    "pages": {
+      "error": {
+        "title": "Errore",
+        "message": "Qualcosa è andato storto"
+      },
+      "planning": {
+        "title": "Gestione missioni"
+      },
+      "history": {
+        "title": "Cronologia percorsi"
+      },
+      "realtime": {
+        "title": "Realtime",
+        "table": {
+          "columns": {
+            "vehicle": "Veicolo",
+            "score": "Score",
+            "consumption": "Consumo (l)",
+            "emissions": "Emissioni (kg)"
+          }
+        }
+      }
+    },
+    "form": {
+      "preRouteStep1": {
+        "title": "Configurazione Veicolo",
+        "vehicleId": {
+          "label": "Selezione veicolo",
+          "helperText": "Inserisci la targa per cercare il veicolo",
+          "placeholder": "Inserisci la targa del veicolo",
+          "error": "Inserisci una targa valida"
+        },
+        "vehicleWeight": {
+          "label": "Massa Totale (Ton)",
+          "helperText": "Inserisci la massa totale del veicolo",
+          "error": "Inserisci una massa valida"
+        },
+        "payload": {
+          "label": "Carico trasportato (Ton)",
+          "helperText": "Inserisci il carico trasportato",
+          "error": "Inserisci un carico valido"
+        },
+        "axleCount": {
+          "label": "Numero di assi",
+          "helperText": "Inserisci il numero di assi",
+          "error": "Inserisci un numero di assi valido"
+        },
+        "submit": "Continua",
+        "error": {
+          "title": "Errore",
+          "message": "Qualcosa è andato storto"
+        }
+      },
+      "preRouteStep2": {
+        "title": "Configurazione Percorso",
+        "description": "Inserisci i dati del percorso oppure scegline uno dai pianificati",
+        "submit": "Continua",
+        "date": {
+          "label": "Data",
+          "error": "Inserisci una data valida"
+        },
+        "startLocation": {
+          "label": "Partenza",
+          "placeholder": "Inserisci l'indirizzo di partenza",
+          "error": "Inserisci un indirizzo valido"
+        },
+        "endLocation": {
+          "label": "Destinazione",
+          "placeholder": "Inserisci la destinazione",
+          "error": "Inserisci un indirizzo valido"
+        },
+        "stops": {
+          "label": "Fermate intermedie",
+          "placeholder": "Inserisci il nome della fermata",
+          "error": "Inserisci un nome valido",
+          "add": "Aggiungi fermata"
+        },
+        "optimizeRoute": "Ottimizza percorso"
+      },
+      "createMission": {
+        "name": {
+          "label": "Nome",
+          "placeholder": "Inserisci il nome della missione"
+        },
+        "success": "Associazione avvenuta con successo!"
+      },
+      "editMission": {
+        "vehicle": {
+          "label": "Veicolo",
+          "placeholder": "Seleziona un veicolo",
+          "error": "Inserisci un veicolo valido",
+          "emptyMessage": "Nessun veicolo"
+        },
+        "date": {
+          "label": "Data",
+          "placeholder": "Seleziona una data",
+          "error": "Inserisci una data valida"
+        },
+         "name": {
+          "label": "Nome",
+          "placeholder": "Inserisci il nome della missione",
+          "error": "Inserisci un nome valido"
+        }
+      },
+      "shared": {
+        "placeInput": {
+          "searchPlaceholder": "Cerca un luogo...",
+          "emptyMessage": "Nessun luogo trovato"
+        },
+        "next": "Avanti",
+        "back": "Indietro",
+        "submit": "Invia",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "delete": "Elimina"
+      }
+    },
+    "enums": {
+      "fuelTypeGroupId": {
+        "GroupPluginHybridElectricVehicleId": "Ibrido elettrico",
+        "GroupFuelCellElectricVehicleId": "Idrogeno",
+        "GroupBatteryElectricVehicleId": "Elettrico",
+        "GroupManuallyClassifiedPowertrainId": "Altro",
+        "GroupPropaneLiquifiedPetroleumGasId": "GPL",
+        "GroupOtherFuelId": "Altro",
+        "GroupCompressedNaturalGasId": "CNG",
+        "GroupBiodieselId": "Biodiesel",
+        "GroupEthanolId": "Etanolo",
+        "GroupDieselId": "Diesel",
+        "GroupGasolinePetrolId": "Benzina"
+      },
+      "vehicleType": {
+        "car": "Auto",
+        "truck": "Camion",
+        "bus": "Autobus"
+      },
+      "vehicleFuelType": {
+        "diesel": "Diesel",
+        "gasoline": "Benzina",
+        "electric": "Elettrico",
+        "hybrid": "Ibrido",
+        "other": "Altro"
+      }
+    },
+    "shared": {
+      "units": {
+        "km": "km",
+        "ton": "ton",
+        "axle": "assi",
+        "euro": "€",
+        "kgCo2": "kg CO₂",
+        "l": "l",
+        "km/h": "km/h"
+      },
+      "date": {
+        "label": "Data",
+        "placeholder": "Seleziona una data"
+      },
+      "time": {
+        "label": "Ora",
+        "placeholder": "Seleziona un'ora"
+      },
+      "pagination": {
+        "page": "Pagina",
+        "of": "di",
+        "previous": "Precedente",
+        "next": "Successiva",
+        "noResults": "Nessun risultato trovato."
+      },
+      "vehicleStatus": {
+        "realTime": "In Movimento",
+        "stopped": "Fermato",
+        "unknown": "Sconosciuto"
+      },
+      "places": {
+        "yourLocation": "La tua posizione"
+      },
+      "loading": "Caricamento...",
+      "error": "Errore"
+    }
+  }
+}
