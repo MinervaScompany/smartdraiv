@@ -1,0 +1,1 @@
+import{j as r}from"./index-LuRuxIAK.js";import{S as i}from"./SearchBox-BKdS3AWd.js";import{F as m}from"./FormFieldWrapper-CSxtuaVH.js";function h({className:e,...a}){return r.jsx(m,{className:e,...a,children:(o,n)=>r.jsx(i,{value:o.value,onChange:o.onChange,"aria-invalid":n?.invalid,onClear:a.compareKey?()=>o.onChange({compareKey:void 0}):void 0,...a})})}export{h as F};
