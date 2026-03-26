@@ -1,0 +1,1 @@
+import{r as u}from"./index-DSuW2_rR.js";const c=(e,t)=>{const[o,s]=u.useState(e);return u.useEffect(()=>{const n=setTimeout(()=>s(e),t);return()=>clearTimeout(n)},[e,t]),o},a=(e,t)=>{const[o,s]=u.useState(e);return u.useEffect(()=>{const n=setTimeout(()=>s(e),t);return()=>clearTimeout(n)},[e,t]),o};export{a,c as u};
