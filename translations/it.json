@@ -1,0 +1,905 @@
+{
+  "translations": {
+    "tabs": {
+      "planning": {
+        "title": "Pianificazione Missione",
+        "tab": "Pianificazione"
+      },
+      "realtime": {
+        "title": "Realtime",
+        "tab": "Realtime"
+      },
+      "history": {
+        "title": "Storico Tratte",
+        "tab": "Storico"
+      },
+      "missions": {
+        "title": "Missioni pianificate",
+        "tab": "Missioni"
+      },
+      "messaging": {
+        "title": "Messaggistica",
+        "tab": "Messaggistica"
+      },
+      "vehicles": {
+        "title": "Gestione veicoli",
+        "tab": "Veicoli"
+      },
+      "msBox": {
+        "title": "Gestione MSBox",
+        "tab": "MSBox",
+        "path": "/msBox/"
+      },
+      "users": {
+        "title": "Gestione utenti",
+        "tab": "Utenti"
+      },
+      "shared": {
+        "back": "Indietro"
+      }
+    },
+    "components": {
+      "missionsTable": {
+        "endMessage": "Non ci sono più missioni",
+        "filters": {
+          "vehicle": "Veicolo",
+          "date": "Data",
+          "selectVehicle": "Seleziona un veicolo",
+          "selectDate": "Seleziona una data",
+          "allVehicles": "Tutti i veicoli",
+          "searchVehicle": "Cerca veicolo...",
+          "noVehicles": "Nessun veicolo trovato",
+          "clear": "Pulisci filtri"
+        },
+        "createMission": {
+          "title": "Associa tratta a veicolo",
+          "description": "Vuoi associare questa tratta al veicolo selezionato?",
+          "createRoute": "Crea missione"
+        },
+        "editMission": {
+          "title": "Modifica Missione"
+        },
+        "deleteMission": {
+          "title": "Elimina Missione",
+          "description": "Sei sicuro di voler eliminare questa missione?"
+        }
+      },
+      "historyTable": {
+        "endMessage": "Non ci sono più percorsi",
+        "filters": {
+          "vehicle": "Veicolo",
+          "date": "Data",
+          "selectVehicle": "Seleziona un veicolo",
+          "selectDate": "Seleziona una data",
+          "allVehicles": "Tutti i veicoli",
+          "searchVehicle": "Cerca veicolo...",
+          "noVehicles": "Nessun veicolo trovato",
+          "clear": "Pulisci filtri"
+        }
+      },
+      "vehicleDataCard": {
+        "title": "Informazioni sul veicolo",
+        "subtitle": "Dettagli del veicolo",
+        "licensePlate": "Targa",
+        "vehicle": "Tipo veicolo",
+        "vehicleWeight": "Peso",
+        "vehiclePayload": "Portata",
+        "vehicleFuel": "Carburante",
+        "vehicleType": "Tipo veicolo",
+        "model": "Modello",
+        "power": "Potenza",
+        "totalWeight": "Peso totale",
+        "payload": "Portata totale",
+        "optimalConsumption": "Consumo ottimale",
+        "energySavings": "Risparmio energetico",
+        "optimalVsReference": "Ottimale vs Riferimento",
+        "fuelSavings": "Risparmio carburante",
+        "fuelSavingsVsOptimal": "Ottimale vs Riferimento",
+        "notAvailable": "N/A",
+        "createRoute": "Crea tratta"
+      },
+      "routeDataCard": {
+        "title": "Dati Percorso",
+        "subtitle": "Informazioni sul tragitto",
+        "origin": "Partenza",
+        "destination": "Destinazione",
+        "duration": "Durata",
+        "eta": "Tempo Stimato",
+        "distance": "Distanza",
+        "steps": "Tappe",
+        "step": "Tappa",
+        "totalDistance": "Distanza Totale",
+        "notAvailable": "N/A",
+        "showDetails": "Mostra dettagli percorso",
+        "hideDetails": "Nascondi dettagli percorso",
+        "routeSteps": "Tappe del percorso",
+        "timeStart": "Data"
+      },
+      "totalConsumptionsCard": {
+        "title": "Consumo ottimale",
+        "consumptions": {
+          "fuelAndToll": "di carburante e Pedaggi",
+          "toll": "di pedaggi",
+          "fuel": "di carburante",
+          "emissions": "di CO₂"
+        }
+      },
+      "totalSavingsCard": {
+        "title": "Risparmi calcolati",
+        "savings": {
+          "fuel": "di carburante",
+          "emissions": "di CO₂"
+        }
+      },
+      "planningHeader": {
+        "results": "Risultato"
+      },
+      "percentageSavingsCard": {
+        "title": "Potenziale"
+      },
+      "analysisSummary": {
+        "potentialSavings": "Risparmio potenziale"
+      },
+      "mapVehicleTooltip": {
+        "model": "Modello",
+        "score": "EcoScore",
+        "consumption": "Consumo",
+        "emissions": "Emissioni",
+        "remainingTime": "Tempo residuo",
+        "distanceTraveled": "km percorsi",
+        "travelTime": "Tempo di viaggio",
+        "position": "Posizione",
+        "speed": "Velocità",
+        "fuelConsumed": "Consumo",
+        "lastUpdate": "Aggiornato il"
+      },
+      "mission": {
+        "details": {
+          "score": "EcoScore",
+          "date": "Data",
+          "duration": "Durata",
+          "payload": "Carico"
+        },
+        "kpi": {
+          "distance": "km percorsi",
+          "fuelEconomy": "Autonomia",
+          "fuelConsumption": "Consumi",
+          "emissions": "Emissioni",
+          "duration": "Durata",
+          "totalMass": "Massa totale",
+          "TEP": "TEP",
+          "potentialSaving": "Risparmio potenziale",
+          "score": "EcoScore",
+          "speed": "Velocità"
+        }
+      },
+      "history": {
+        "actions": {
+          "download": "Scarica CSV",
+          "downloading": "Scaricamento..."
+        },
+        "charts": {
+          "speed": "Velocità",
+          "optimalSpeed": "Velocità ottimale",
+          "optimalSpeedPostTratta": "Velocità ottimale post tratta",
+          "optimalSpeedInDriving": "Velocità ottimale in driving",
+          "speedLimit": "Limite di velocità",
+          "altitude": "Altitudine"
+        }
+      },
+      "notificationBell": {
+        "ariaLabel": "Notifiche",
+        "liveNotifications": "Notifiche live",
+        "updating": "Aggiornamento in corso...",
+        "noNotifications": "Nessuna notifica al momento",
+        "autoUpdate": "Aggiornamento automatico ogni 10s",
+        "defaultNotification": "Notifica",
+        "markAsRead": "Segna come letta",
+        "markAllAsRead": "Segna tutte come lette"
+      },
+      "userMenu": {
+        "menuLabel": "Menu utente",
+        "language": "Lingua",
+        "english": "Inglese",
+        "italian": "Italiano",
+        "logout": "Logout"
+      },
+      "vehicleItem": {
+        "MSBox": "MSBox",
+        "model": "Modello",
+        "fuel": "Carburante"
+      },
+      "msboxItem": {
+        "id": "ID",
+        "vehicle": "Veicolo",
+        "simIccid": "SIM ICCID",
+        "imei": "IMEI",
+        "texaSerial": "Seriale Texa"
+      },
+      "msboxDialog": {
+        "buttonLabel": "Nuova MSBox",
+        "dialogDescription": "Dati della MSBox: generale, SIM, Smartphone, Texa e OBU.",
+        "title": "Crea MSBox",
+        "titleCreate": "Crea MSBox",
+        "titleEdit": "Modifica MSBox",
+        "updated": "MSBox aggiornata",
+        "save": "Salva",
+        "saving": "Salvataggio...",
+        "vehicleLabel": "Veicolo",
+        "customerLabel": "Cliente",
+        "simIccidLabel": "ICCID",
+        "smartphoneModelLabel": "Modello smartphone",
+        "smartphoneImeiLabel": "IMEI smartphone",
+        "error": "Errore durante il salvataggio della MSBox. Verifica nelle tab se ci sono errori nei campi.",
+        "tabs": {
+          "general": "Generale",
+          "sim": "SIM",
+          "raspberry": "OBU",
+          "texa": "Texa",
+          "smartphone": "Smartphone"
+        },
+        "buttons": {
+          "back": "Indietro",
+          "next": "Avanti"
+        },
+        "successDialog": {
+          "title": "Operazione completata",
+          "description": "MSBox creata con successo. ID: {{id}}",
+          "closeLabel": "OK"
+        }
+      },
+      "editMsboxDialog": {
+        "title": "Modifica MSBox"
+      },
+      "confirmDeleteMsboxDialog": {
+        "title": "Elimina MSBox",
+        "triggerLabel": "Elimina",
+        "warningMessage": "Attenzione: l'eliminazione di questa MSBox è definitiva e non può essere annullata.",
+        "checkLabel": "Per confermare l'eliminazione, inserisci l'MSBox ID",
+        "checkPlaceholder": "MSBox ID",
+        "successMessage": "MSBox eliminata con successo"
+      },
+      "userItem": {
+        "email": "Email",
+        "username": "Username"
+      },
+      "insertVehicleDialog": {
+        "title": "Inserisci Veicolo",
+        "buttonLabel": "Crea",
+        "save": "Salva",
+        "saving": "Salvataggio...",
+        "error": "Errore durante il salvataggio del veicolo. Verifica nelle tab se ci sono errori nei campi.",
+        "vehicleCreatedSuccess": "Il veicolo {{targa}} è stato creato con successo",
+        "successDialog": {
+          "title": "Operazione completata",
+          "description": "Il veicolo {{targa}} è stato creato con successo",
+          "closeLabel": "OK"
+        },
+        "tabs": {
+          "general": "Generale",
+          "vehicle": "Veicolo",
+          "settings": "Settaggi"
+        },
+        "buttons": {
+          "back": "Indietro",
+          "next": "Avanti"
+        }
+      },
+      "editVehicleDialog": {
+        "title": "Modifica Veicolo",
+        "updated": "Veicolo aggiornato con successo"
+      },
+      "confirmDeleteVehicleDialog": {
+        "title": "Conferma Eliminazione",
+        "triggerLabel": "Elimina",
+        "warningMessage": "Attenzione: La cancellazione del veicolo comporta anche la perdita dei dati ad esso associato!",
+        "checkLabel": "Per confermare l'eliminazione, inserisci la targa del veicolo",
+        "checkPlaceholder": "targa del veicolo"
+      },
+      "insertUserDialog": {
+        "title": "Inserisci Utente",
+        "buttonLabel": "Crea",
+        "save": "Salva",
+        "saving": "Salvataggio...",
+        "error": "Errore durante il salvataggio dell'utente. Verifica nelle tab se ci sono errori nei campi.",
+        "successDialog": {
+          "title": "Operazione completata",
+          "imagePath": "/images/user/userCreated.svg",
+          "description": "L'utente <strong>{{nome}}</strong> è stato creato con successo",
+          "closeLabel": "OK"
+        },
+        "tabs": {
+          "general": "Generale",
+          "permissions": "Permessi"
+        },
+        "buttons": {
+          "back": "Indietro",
+          "next": "Avanti"
+        }
+      },
+      "editUserDialog": {
+        "title": "Modifica Utente",
+        "updated": "Utente aggiornato con successo"
+      },
+      "confirmDeleteUserDialog": {
+        "title": "Conferma Eliminazione",
+        "triggerLabel": "Elimina",
+        "warningMessage": "Attenzione: La cancellazione dell'utente comporta anche la perdita dei dati ad esso associati!",
+        "checkLabel": "Per confermare l’eliminazione, inserisci l’email dell’utente",
+        "checkPlaceholder": "nome o email"
+      }
+    },
+    "pages": {
+      "error": {
+        "title": "Errore",
+        "message": "Qualcosa è andato storto"
+      },
+      "planning": {
+        "title": "Missioni pianificate"
+      },
+      "history": {
+        "title": "Cronologia percorsi",
+        "totals": {
+          "distance": "Distanza",
+          "time": "Tempo",
+          "fuel": "Carburante",
+          "emissions": "Emissioni",
+          "score": "EcoScore",
+          "tep": "TEP",
+          "potentialSaving": "Risparmio potenziale",
+          "fuelEconomy": "Autonomia"
+        }
+      },
+      "vehicles": {
+        "searchPlaceholder": "Cerca veicoli...",
+        "loading": "Caricamento..."
+      },
+      "msBox": {
+        "searchPlaceholder": "Cerca per OBU, veicolo, cliente...",
+        "loading": "Caricamento...",
+        "unknownCustomer": "Cliente sconosciuto",
+        "unassignedTitle": "MSBox non assegnate",
+        "toggleOnlyUnassigned": "Solo non assegnate",
+        "customerLabel": "Cliente"
+      },
+      "users": {
+        "searchPlaceholder": "Cerca utenti...",
+        "loading": "Caricamento..."
+      },
+      "realtime": {
+        "title": "Realtime",
+        "searchPlaceholder": "Cerca...",
+        "table": {
+          "columns": {
+            "vehicle": "Veicolo",
+            "score": "EcoScore",
+            "fuelEconomy": "Autonomia",
+            "consumption": "Consumo",
+            "emissions": "Emissioni"
+          }
+        },
+        "details": {
+          "backToVehicles": "Torna ai veicoli",
+          "details": "Dettagli",
+          "charts": "Grafici",
+          "lastUpdate": "Aggiornato il",
+          "start": "Partenza",
+          "data": {
+            "distanceTraveled": "km percorsi",
+            "travelTime": "Tempo di viaggio",
+            "remainingTime": "Tempo rimanente",
+            "temperature": "Temperatura",
+            "position": "Posizione",
+            "travelTimeUnit": "min",
+            "environmentalSensors": "Sonde ambientali",
+            "probe1001": "Sonda 1001",
+            "probe1003": "Sonda 1003",
+            "probe1004": "Sonda 1004",
+            "probe1009": "Sonda 1009",
+            "probePayload": {
+              "temperature": { "label": "Temperatura", "unit": "°C" },
+              "humidity": { "label": "Umidita", "unit": "%" },
+              "voc": { "label": "Qualita dell'aria (VOC)", "unit": "ppb" },
+              "co2": { "label": "Livello CO₂", "unit": "ppm" },
+              "batteryLevel": { "label": "Livello batteria", "unit": "%" },
+              "lux": { "label": "Livello luce", "unit": "lx" },
+              "presence": { "label": "Presenza (PIR)" },
+              "pressure": { "label": "Pressione atmosferica", "unit": "hPa" }
+            },
+            "probeFieldTemperature": "Temperatura",
+            "probeFieldHumidity": "Umidita",
+            "probeFieldVoc": "Qualita dell'aria (VOC)",
+            "probeFieldCo2": "Livello CO₂",
+            "probeFieldBatteryLevel": "Livello batteria",
+            "probeFieldLux": "Livello luce",
+            "probeFieldPresence": "Presenza (PIR)",
+            "probeFieldPressure": "Pressione atmosferica",
+            "internalTemperature": "Temperatura interna",
+            "internalHumidity": "Umidita interna",
+            "airQualityVoc": "Qualita dell'aria (VOC)",
+            "co2Level": "Livello CO₂",
+            "sensorBatteryLevel": "Livello batteria sensore",
+            "externalTemperature": "Temperatura esterna",
+            "externalHumidity": "Umidita esterna",
+            "lightLevel": "Livello luce",
+            "presencePir": "Presenza (PIR)",
+            "atmosphericPressure": "Pressione atmosferica",
+            "yes": "Si",
+            "no": "No",
+            "true": "Vero",
+            "false": "Falso"
+          }
+        }
+      }
+    },
+    "form": {
+      "msBox": {
+        "general": {
+          "msbox_id": {
+            "label": "MSBox ID",
+            "validation": { "required": "L'MSBox ID è obbligatorio" }
+          },
+          "veicolo": { "label": "Veicolo" },
+          "id_veicolo": { "label": "ID veicolo" },
+          "msbox_version": { "label": "Versione" },
+          "msbox_state": {
+            "label": "Stato",
+            "empty": "Nessuno stato MSBox disponibile."
+          },
+          "comment": { "label": "Commento" }
+        },
+        "sim": {
+          "sim_eid": { "label": "EID" },
+          "sim_network": {
+            "label": "Rete",
+            "empty": "Nessuna rete SIM disponibile."
+          },
+          "sim_state": {
+            "label": "Stato",
+            "empty": "Nessuno stato SIM disponibile."
+          },
+          "sim_activation_date": { "label": "Data attivazione" }
+        },
+        "raspberry": {
+          "pcb_version": { "label": "Versione PCB" },
+          "pcb_id": { "label": "ID PCB" },
+          "rpi_serial": { "label": "Seriale Raspberry" },
+          "rpi_ip": { "label": "IP Raspberry" },
+          "rpi_version": { "label": "Versione Raspberry" },
+          "rpi_id": { "label": "ID Raspberry" },
+          "rpi_send_csv": { "label": "Invio CSV da Raspberry" }
+        },
+        "smartphone": {
+          "smartphone_model": { "label": "Model" },
+          "smartphone_imei": { "label": "IMEI" },
+          "smartphone_mdm": { "label": "MDM" },
+          "smartphone_configurated": { "label": "Configured" }
+        },
+        "texa": {
+          "label": "ID dongle Texa",
+          "placeholder": "Inserisci ID dongle",
+          "check": "Verifica",
+          "notAvailable": "ID dongle non disponibile",
+          "associated": "Dongle associato",
+          "error": "Errore caricamento dongle",
+          "associatedLabel": "Dongle associato",
+          "clear": "Rimuovi",
+          "fields": {
+            "id": "ID",
+            "dongle_id": "ID dongle",
+            "serial": "Seriale",
+            "serialNumber": "Numero seriale",
+            "bt_pin": "BT PIN",
+            "ins_date": "Data installazione",
+            "mac_address": "Indirizzo MAC",
+            "model": "Modello",
+            "version": "Versione",
+            "type": "Tipo",
+            "status": "Stato"
+          }
+        }
+      },
+      "vehicles": {
+        "general": {
+          "veicolo": {
+            "label": "Targa",
+            "placeholder": "Inserisci la targa",
+            "validation": { "min": "La targa deve avere almeno 3 caratteri" }
+          },
+          "user_id": {
+            "label": "Utenti associati",
+            "loading": "Caricamento...",
+            "noCustomer": "Seleziona un cliente per vedere gli utenti.",
+            "empty": "Nessun utente trovato."
+          },
+          "registration": {
+            "label": "Libretto",
+            "validation": { "required": "Il libretto è obbligatorio" }
+          }
+        },
+        "info": {
+          "vehicleType": {
+            "label": "Tipologia",
+            "placeholder": "Seleziona tipologia",
+            "placeholderSelectTypeFirst": "Seleziona prima una tipologia"
+          },
+          "vehicleMake": {
+            "label": "Marca",
+            "placeholder": "Seleziona marca",
+            "validation": { "required": "La marca è obbligatoria" }
+          },
+          "vehicleOnlyModel": {
+            "label": "Modello",
+            "placeholder": "Seleziona modello",
+            "empty": "Nessun modello disponibile",
+            "validation": { "required": "Il modello è obbligatorio" }
+          },
+          "vehiclePower": {
+            "label": "Potenza",
+            "placeholder": "Seleziona potenza",
+            "placeholderSelectModelFirst": "Seleziona prima un modello",
+            "validation": { "required": "La potenza è obbligatoria" }
+          },
+          "vehicleModel": {
+            "validation": { "required": "Il modello veicolo è obbligatorio" }
+          },
+          "fuel": {
+            "label": "Carburante",
+            "placeholder": "Seleziona carburante",
+            "validation": { "required": "Il carburante è obbligatorio" }
+          },
+          "reset": "Reimposta"
+        },
+        "settings": {
+          "version": {
+            "label": "Versione",
+            "placeholder": "Seleziona versione"
+          },
+          "msbox_id": {
+            "label": "MSBox ID",
+            "placeholder": "Enter MSBox ID",
+            "validation": { "required": "MSBox ID is required" },
+            "loading": "Loading...",
+            "empty": "No MSBox available."
+          },
+          "id_dispositivo": {
+            "label": "ID Dispositivo",
+            "placeholder": "Inserisci ID dispositivo",
+            "validation": { "required": "L'ID dispositivo è obbligatorio" }
+          },
+          "id_cliente": {
+            "label": "ID Cliente",
+            "placeholder": "Inserisci ID cliente",
+            "validation": { "required": "L'ID cliente è obbligatorio" },
+            "loading": "Caricamento...",
+            "empty": "Nessun cliente disponibile."
+          }
+        }
+      },
+      "users": {
+        "general": {
+          "username": {
+            "label": "Username",
+            "placeholder": "Inserisci username",
+            "validation": {
+              "required": "Lo username è obbligatorio"
+            }
+          },
+          "nome": {
+            "label": "Nome",
+            "placeholder": "Inserisci nome",
+            "validation": {
+              "required": "Il nome è obbligatorio"
+            }
+          },
+          "id_clienti": {
+            "label": "Cliente",
+            "placeholder": "Seleziona cliente",
+            "loading": "Caricamento...",
+            "empty": "Nessun cliente disponibile.",
+            "validation": {
+              "required": "Il cliente è obbligatorio"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Inserisci email",
+            "validation": {
+              "required": "L'email è obbligatoria",
+              "invalid": "Inserisci un'email valida"
+            }
+          },
+          "emailConfirm": {
+            "label": "Conferma Email",
+            "placeholder": "Conferma email",
+            "validation": {
+              "required": "La conferma email è obbligatoria",
+              "invalid": "Inserisci un'email valida",
+              "mismatch": "Le email non coincidono"
+            }
+          },
+          "password": {
+            "label": "Password",
+            "sublabel": "Inserisci la password due volte per confermare",
+            "placeholder": "Inserisci password",
+            "tooltip": "La nuova password deve essere lunga <strong>almeno 8 caratteri</strong> e deve contenere almeno una lettera maiuscola, una lettera minuscola, un numero ed un carattere speciale. Non deve contenere spazi.",
+            "generate": "Genera",
+            "copy": "Copia",
+            "generatedAndCopied": "Password generata e copiata negli appunti",
+            "generated": "Password generata",
+            "copied": "Password copiata negli appunti",
+            "empty": "Nessuna password da copiare",
+            "copyError": "Errore durante la copia della password",
+            "validation": {
+              "min": "La password deve avere almeno 8 caratteri"
+            }
+          },
+          "passwordEdit": {
+            "label": "Nuova Password",
+            "placeholder": "Lascia vuoto per non modificare"
+          },
+          "passwordConfirm": {
+            "label": "Conferma Password",
+            "label.edit": "Conferma Nuova Password",
+            "placeholder": "Conferma password",
+            "placeholder.edit": "Conferma nuova password",
+            "validation": {
+              "min": "La password deve avere almeno 8 caratteri",
+              "mismatch": "Le password non coincidono"
+            }
+          },
+          "id_cliente": {
+            "label": "Cliente",
+            "placeholder": "Seleziona cliente",
+            "loading": "Caricamento...",
+            "empty": "Nessun cliente disponibile.",
+            "validation": {
+              "required": "Il cliente è obbligatorio"
+            }
+          },
+          "enabled": {
+            "label": "Abilita Login",
+            "description": "Se abilitato, l'utente sarà in grado di accedere al portale."
+          }
+        },
+        "permissions": {
+          "title": "Ruolo e permessi",
+          "description": "Ruolo nell'app e livello di accesso alla dashboard.",
+          "rank": {
+            "label": "Ruolo app",
+            "placeholder": "Seleziona un ruolo",
+            "validation": {
+              "required": "Il ruolo è obbligatorio"
+            }
+          },
+          "userRank": {
+            "label": "Ruolo app",
+            "placeholder": "Seleziona un ruolo",
+            "validation": {
+              "required": "Il ruolo è obbligatorio"
+            }
+          },
+          "perm": {
+            "label": "Permessi dashboard",
+            "placeholder": "Seleziona permessi dashboard",
+            "validation": {
+              "required": "I permessi dashboard sono obbligatori"
+            }
+          }
+        }
+      },
+      "preRouteStep1": {
+        "title": "Configurazione Veicolo",
+        "vehicleId": {
+          "label": "Selezione veicolo",
+          "helperText": "Inserisci la targa per cercare il veicolo",
+          "placeholder": "Inserisci la targa del veicolo",
+          "error": "Inserisci una targa valida"
+        },
+        "vehicleWeight": {
+          "label": "Massa Totale (Ton)",
+          "helperText": "Inserisci la massa totale del veicolo",
+          "error": "Inserisci una massa valida"
+        },
+        "payload": {
+          "label": "Carico trasportato (Ton)",
+          "helperText": "Inserisci il carico trasportato",
+          "error": "Inserisci un carico valido"
+        },
+        "axleCount": {
+          "label": "Numero di assi",
+          "helperText": "Inserisci il numero di assi",
+          "error": "Inserisci un numero di assi valido"
+        },
+        "submit": "Continua",
+        "error": {
+          "title": "Errore",
+          "message": "Qualcosa è andato storto"
+        }
+      },
+      "preRouteStep2": {
+        "title": "Configurazione Percorso",
+        "description": "Inserisci i dati del percorso oppure scegline uno dai pianificati",
+        "submit": "Continua",
+        "quota": {
+          "label": "Chiamate routing disponibili",
+          "loading": "Verifica disponibilità quota...",
+          "error": "Impossibile recuperare la quota"
+        },
+        "date": {
+          "label": "Data",
+          "error": "Inserisci una data valida"
+        },
+        "startLocation": {
+          "label": "Partenza",
+          "placeholder": "Inserisci l'indirizzo di partenza",
+          "error": "Inserisci un indirizzo valido"
+        },
+        "endLocation": {
+          "label": "Destinazione",
+          "placeholder": "Inserisci la destinazione",
+          "error": "Inserisci un indirizzo valido"
+        },
+        "stops": {
+          "label": "Fermate intermedie",
+          "placeholder": "Inserisci il nome della fermata",
+          "error": "Inserisci un nome valido",
+          "add": "Aggiungi fermata"
+        },
+        "optimizeRoute": "Ottimizza percorso"
+      },
+      "createMission": {
+        "name": {
+          "label": "Nome",
+          "placeholder": "Inserisci il nome della missione"
+        },
+        "success": "Associazione avvenuta con successo!"
+      },
+      "editMission": {
+        "vehicle": {
+          "label": "Veicolo",
+          "placeholder": "Seleziona un veicolo",
+          "error": "Inserisci un veicolo valido",
+          "emptyMessage": "Nessun veicolo"
+        },
+        "date": {
+          "label": "Data",
+          "placeholder": "Seleziona una data",
+          "error": "Inserisci una data valida"
+        },
+        "name": {
+          "label": "Nome",
+          "placeholder": "Inserisci il nome della missione",
+          "error": "Inserisci un nome valido"
+        }
+      },
+      "shared": {
+        "placeInput": {
+          "searchPlaceholder": "Cerca un luogo...",
+          "emptyMessage": "Nessun luogo trovato"
+        },
+        "next": "Avanti",
+        "back": "Indietro",
+        "submit": "Invia",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "delete": "Elimina"
+      }
+    },
+    "enums": {
+      "fuelTypeGroupId": {
+        "GroupPluginHybridElectricVehicleId": "Ibrido elettrico",
+        "GroupFuelCellElectricVehicleId": "Idrogeno",
+        "GroupBatteryElectricVehicleId": "Elettrico",
+        "GroupManuallyClassifiedPowertrainId": "Altro",
+        "GroupPropaneLiquifiedPetroleumGasId": "GPL",
+        "GroupOtherFuelId": "Altro",
+        "GroupCompressedNaturalGasId": "CNG",
+        "GroupBiodieselId": "Biodiesel",
+        "GroupEthanolId": "Etanolo",
+        "GroupDieselId": "Diesel",
+        "GroupGasolinePetrolId": "Benzina"
+      },
+      "vehicleType": {
+        "car": "Auto",
+        "truck": "Camion",
+        "bus": "Autobus",
+        "van": "Van"
+      },
+      "vehicleFuelType": {
+        "diesel": "Diesel",
+        "biodiesel": "Biodiesel",
+        "gasoline": "Benzina",
+        "elettric": "Elettrico",
+        "hybrid": "Ibrido",
+        "other": "Altro",
+        "natural gas": "Gas Naturale",
+        "gpl": "GPL",
+        "fuel cells": "Fuel Cell"
+      },
+      "notificationType": {
+        "deviation-handled": "Deviazione Gestita",
+        "show-notification": "Notifica",
+        "alert-response": "Risposta Allerta",
+        "show-alert": "Allerta",
+        "shutdown": "Arresto",
+        "shutdown-fail": "Arresto Automatico",
+        "start": "Partenza",
+        "switch-version": "Cambio versione"
+      },
+      "userRole": {
+        "guest": "Ospite",
+        "user": "Autista",
+        "vodafone": "Vodafone",
+        "admin": "Amministratore"
+      },
+      "UserPermission": {
+        "SUPERADMIN": "Super Admin",
+        "ADMIN": "Admin",
+        "FLEET_MANAGER": "Fleet Manager",
+        "DRIVER": "Autista",
+        "SERVICE": "Service"
+      },
+      "NetworkProvider": {
+        "VODAFONE": "Vodafone",
+        "POD": "POD"
+      },
+      "SimState": {
+
+        "ACTIVE": "Attiva",
+        "NOT_ACTIVE": "Non attiva",
+        "SUSPENDED": "Sospesa"
+      },
+      "ObuState": {
+
+        "TO_BE_CONFIGURED": "Da configurare",
+        "READY": "Pronta",
+        "ASSEMBLED": "Assemblata",
+        "SHIPPING": "In spedizione",
+        "DELIVERED": "Consegnata",
+        "ACTIVE": "Attiva"
+      }
+    },
+    "shared": {
+      "units": {
+        "km": "km",
+        "ton": "ton",
+        "axle": "assi",
+        "euro": "€",
+        "kgCo2": "kg CO₂",
+        "l": "l",
+        "km/h": "km/h",
+        "km/l": "km/l",
+        "kg": "kg",
+        "CO2": "CO₂",
+        "m": "m",
+        "kmh": "km/h"
+      },
+      "date": {
+        "label": "Data",
+        "placeholder": "Seleziona una data"
+      },
+      "time": {
+        "label": "Ora",
+        "placeholder": "Seleziona un'ora"
+      },
+      "pagination": {
+        "page": "Pagina",
+        "of": "di",
+        "previous": "Precedente",
+        "next": "Successiva",
+        "noResults": "Nessun risultato trovato."
+      },
+      "vehicleStatus": {
+        "realTime": "In Movimento",
+        "stopped": "Fermato",
+        "unknown": "Sconosciuto"
+      },
+      "places": {
+        "yourLocation": "La tua posizione"
+      },
+      "loading": "Caricamento...",
+      "error": "Errore"
+    }
+  }
+}
