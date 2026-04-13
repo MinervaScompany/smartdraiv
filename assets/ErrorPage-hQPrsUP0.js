@@ -1,0 +1,1 @@
+import{u as t,j as e}from"./index-Diyjm6vE.js";const r=()=>{const s=t("pages.error");return e.jsxs("div",{className:"w-full h-full flex flex-col items-center justify-center",children:[e.jsx("h1",{className:"text-4xl font-bold",children:s("title")}),e.jsx("p",{className:"text-2xl",children:s("message")})]})};export{r as ErrorPage};
