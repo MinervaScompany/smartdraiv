@@ -1,0 +1,1205 @@
+{
+  "translations": {
+    "tabs": {
+      "planning": {
+        "title": "Mission Planning",
+        "tab": "Planning"
+      },
+      "realtime": {
+        "title": "Homepage",
+        "tab": "Homepage"
+      },
+      "history": {
+        "title": "Route History",
+        "tab": "History"
+      },
+      "missions": {
+        "title": "Planned Missions",
+        "tab": "Missions"
+      },
+      "messaging": {
+        "title": "Messaging",
+        "tab": "Messaging"
+      },
+      "vehicles": {
+        "title": "Vehicle management",
+        "tab": "Vehicles"
+      },
+      "msBox": {
+        "title": "MSBox management",
+        "tab": "MSBox",
+        "path": "/msBox/"
+      },
+      "users": {
+        "title": "User management",
+        "tab": "Users"
+      },
+      "shared": {
+        "back": "Back"
+      }
+    },
+    "components": {
+      "missionsTable": {
+        "endMessage": "There are no more missions",
+        "filters": {
+          "vehicle": "Vehicle",
+          "date": "Date",
+          "selectVehicle": "Select a vehicle",
+          "selectDate": "Select a date",
+          "allVehicles": "All vehicles",
+          "searchVehicle": "Search vehicle...",
+          "noVehicles": "No vehicles found",
+          "clear": "Clear filters"
+        },
+        "createMission": {
+          "title": "Associate route with vehicle",
+          "description": "Do you want to associate this route with the selected vehicle?",
+          "createRoute": "Create Mission"
+        },
+        "groups": {
+          "recurring": "Recurring",
+          "standard": "Non-recurring"
+        },
+        "editMission": {
+          "title": "Edit Mission",
+          "updated": "Mission updated successfully",
+          "error": "Could not save changes. Try again.",
+          "saving": "Saving..."
+        },
+        "deleteMission": {
+          "title": "Delete Mission",
+          "description": "Are you sure you want to delete this mission?"
+        },
+        "disabled": "Disabled"
+      },
+      "historyTable": {
+        "endMessage": "There are no more routes",
+        "filters": {
+          "vehicle": "Vehicle",
+          "date": "Date",
+          "selectVehicle": "Select a vehicle",
+          "selectDate": "Select a date",
+          "allVehicles": "All vehicles",
+          "searchVehicle": "Search vehicle...",
+          "noVehicles": "No vehicles found",
+          "clear": "Clear filters"
+        }
+      },
+      "vehicleDataCard": {
+        "title": "Vehicle Data",
+        "subtitle": "Detailed vehicle information",
+        "licensePlate": "License Plate",
+        "vehicle": "Vehicle Type",
+        "vehicleWeight": "Weight",
+        "vehiclePayload": "Payload",
+        "vehicleFuel": "Fuel",
+        "vehicleType": "Vehicle Type",
+        "model": "Model",
+        "power": "Power",
+        "totalWeight": "Total Weight",
+        "payload": "Total Payload",
+        "optimalConsumption": "Optimal Consumption",
+        "energySavings": "Energy Savings",
+        "optimalVsReference": "Optimal vs Reference",
+        "fuelSavings": "Fuel Savings",
+        "fuelSavingsVsOptimal": "Optimal vs Reference",
+        "notAvailable": "N/A",
+        "createRoute": "Create Route"
+      },
+      "routeDataCard": {
+        "title": "Route Data",
+        "subtitle": "Route information",
+        "origin": "Origin",
+        "destination": "Destination",
+        "duration": "Duration",
+        "eta": "Estimated Time",
+        "distance": "Distance",
+        "steps": "Steps",
+        "step": "Step",
+        "totalDistance": "Total Distance",
+        "notAvailable": "N/A",
+        "showDetails": "Show details",
+        "hideDetails": "Hide details",
+        "showSteps": "Show intermediate stops",
+        "hideSteps": "Hide intermediate stops",
+        "routeSteps": "Route steps",
+        "timeStart": "Date"
+      },
+      "totalConsumptionsCard": {
+        "title": "Optimal Consumption",
+        "consumptions": {
+          "fuelAndToll": "of fuel and tolls",
+          "toll": "of tolls",
+          "fuel": "of fuel",
+          "emissions": "of CO₂"
+        }
+      },
+      "totalSavingsCard": {
+        "title": "Calculated Savings",
+        "savings": {
+          "fuel": "of fuel",
+          "emissions": "of CO₂"
+        }
+      },
+      "planningHeader": {
+        "results": "Results"
+      },
+      "percentageSavingsCard": {
+        "title": "Potential"
+      },
+      "analysisSummary": {
+        "potentialSavings": "Potential Savings"
+      },
+      "mapVehicleTooltip": {
+        "model": "Model",
+        "score": "EcoScore",
+        "consumption": "Consumption",
+        "emissions": "Emissions",
+        "remainingTime": "Remaining time",
+        "distanceTraveled": "km traveled",
+        "travelTime": "Travel time",
+        "position": "Position",
+        "speed": "Speed",
+        "fuelConsumed": "Fuel consumed",
+        "lastUpdate": "Updated at"
+      },
+      "mission": {
+        "details": {
+          "score": "EcoScore",
+          "date": "Date",
+          "duration": "Duration",
+          "payload": "Payload"
+        },
+        "kpi": {
+          "distance": "km traveled",
+          "fuelEconomy": "Fuel Economy",
+          "fuelConsumption": "Consumption",
+          "emissions": "Emissions",
+          "duration": "Duration",
+          "totalMass": "Total Mass",
+          "TEP": "TEP",
+          "potentialSaving": "Potential savings",
+          "score": "EcoScore",
+          "speed": "Speed"
+        }
+      },
+      "history": {
+        "actions": {
+          "download": "Download CSV",
+          "downloading": "Downloading...",
+          "warnings": {
+            "postRouteDistanceAnalysis": "Distance error in post-route analysis"
+          }
+        },
+        "reportDialog": {
+          "trigger": "Download Report",
+          "disabledTooltip": {
+            "noVehicles": "Select at least one vehicle to export the report",
+            "noDate": "Select a date range to export the report"
+          }
+        },
+        "charts": {
+          "speed": "Speed",
+          "optimalSpeed": "Optimal speed",
+          "optimalSpeedPostTratta": "Optimal speed post route",
+          "optimalSpeedInDriving": "Optimal speed in driving",
+          "speedLimit": "Speed limit",
+          "altitude": "Altitude"
+        }
+      },
+      "notificationBell": {
+        "ariaLabel": "Notifications",
+        "notifications": "Notifications",
+        "updating": "Updating...",
+        "noNotifications": "No notifications at the moment",
+        "autoUpdate": "Automatic update every 10s",
+        "defaultNotification": "Notification",
+        "markAsRead": "Mark as read",
+        "markAllAsRead": "Mark all as read",
+        "emptyTitle": "You are all caught up",
+        "yesterday": "Yesterday"
+      },
+      "userMenu": {
+        "menuLabel": "User menu",
+        "language": "Language",
+        "english": "English",
+        "italian": "Italian",
+        "logout": "Logout"
+      },
+      "vehicleItem": {
+        "MSBox": "MSBox",
+        "model": "Model",
+        "fuel": "Fuel"
+      },
+      "msboxItem": {
+        "id": "ID",
+        "vehicle": "Vehicle",
+        "simIccid": "SIM ICCID",
+        "imei": "IMEI",
+        "texaSerial": "Texa serial"
+      },
+      "msboxDialog": {
+        "buttonLabel": "New MSBox",
+        "dialogDescription": "MSBox details: general, SIM, Smartphone, Texa and OBU.",
+        "title": "Create MSBox",
+        "titleCreate": "Create MSBox",
+        "titleEdit": "Edit MSBox",
+        "updated": "MSBox updated",
+        "save": "Save",
+        "saving": "Saving...",
+        "vehicleLabel": "Vehicle",
+        "customerLabel": "Customer",
+        "simIccidLabel": "ICCID",
+        "smartphoneModelLabel": "Smartphone model",
+        "smartphoneImeiLabel": "Smartphone IMEI",
+        "error": "Error while saving MSBox. Check if there are errors in the fields.",
+        "tabs": {
+          "general": "General",
+          "sim": "SIM",
+          "raspberry": "OBU",
+          "texa": "Texa",
+          "smartphone": "Smartphone"
+        },
+        "buttons": {
+          "back": "Back",
+          "next": "Next"
+        },
+        "successDialog": {
+          "title": "Operation completed",
+          "description": "MSBox was created successfully. ID: {{id}}",
+          "closeLabel": "OK"
+        }
+      },
+      "customerDialog": {
+        "buttonLabel": "New fleet",
+        "dialogDescription": "Fleet details.",
+        "title": "Create fleet",
+        "created": "Fleet created",
+        "updated": "Fleet updated",
+        "save": "Save",
+        "saving": "Saving...",
+        "error": "Error while saving fleet."
+      },
+      "fleetNavigator": {
+        "searchPlaceholder": "Search customer"
+      },
+      "editCustomerDialog": {
+        "title": "Edit fleet"
+      },
+      "confirmDeleteCustomerDialog": {
+        "title": "Delete fleet",
+        "triggerLabel": "Delete",
+        "warningMessage": "This action cannot be undone.",
+        "checkLabel": "Type the fleet name to confirm",
+        "checkPlaceholder": "Fleet name",
+        "successMessage": "Fleet deleted"
+      },
+      "editMsboxDialog": {
+        "title": "Edit MSBox"
+      },
+      "confirmDeleteMsboxDialog": {
+        "title": "Delete MSBox",
+        "triggerLabel": "Delete",
+        "warningMessage": "Warning: Deleting this MSBox will remove it permanently. This action cannot be undone.",
+        "checkLabel": "To confirm deletion, enter the MSBox ID",
+        "checkPlaceholder": "MSBox ID",
+        "successMessage": "MSBox deleted successfully"
+      },
+      "userItem": {
+        "email": "Email",
+        "username": "Username"
+      },
+      "insertVehicleDialog": {
+        "title": "Insert Vehicle",
+        "buttonLabel": "Create",
+        "save": "Save",
+        "saving": "Saving...",
+        "updated": "Vehicle updated",
+        "error": "Error saving vehicle. Check if there are errors in the fields.",
+        "vehicleCreatedSuccess": "Vehicle {{targa}} was created successfully!",
+        "successDialog": {
+          "title": "Operation completed",
+          "description": "Vehicle {{targa}} was created successfully",
+          "closeLabel": "OK"
+        },
+        "tabs": {
+          "general": "General",
+          "vehicle": "Vehicle",
+          "settings": "Settings"
+        },
+        "buttons": {
+          "back": "Back",
+          "next": "Next"
+        }
+      },
+      "editVehicleDialog": {
+        "title": "Edit Vehicle"
+      },
+      "confirmDeleteVehicleDialog": {
+        "title": "Delete",
+        "triggerLabel": "Delete",
+        "warningMessage": "Warning: Deleting the vehicle will also result in the loss of all associated data!",
+        "checkLabel": "To confirm deletion, enter the vehicle plate",
+        "checkPlaceholder": "vehicle plate"
+      },
+      "insertUserDialog": {
+        "title": "Insert User",
+        "buttonLabel": "Create",
+        "save": "Save",
+        "saving": "Saving...",
+        "updated": "User updated",
+        "error": "Error saving user. Check if there are errors in the fields.",
+        "successDialog": {
+          "title": "Operation completed",
+          "imagePath": "/images/user/userCreated.svg",
+          "description": "User <strong>{{nome}}</strong> was created successfully",
+          "closeLabel": "OK"
+        },
+        "tabs": {
+          "general": "General",
+          "permissions": "Permissions"
+        },
+        "buttons": {
+          "back": "Back",
+          "next": "Next"
+        }
+      },
+      "editUserDialog": {
+        "title": "Edit User"
+      },
+      "confirmDeleteUserDialog": {
+        "title": "Confirm Deletion",
+        "triggerLabel": "Delete",
+        "warningMessage": "Warning: Deleting the user will also result in the loss of all associated data!",
+        "checkLabel": "To confirm deletion, enter name or email",
+        "checkPlaceholder": "name or email"
+      }
+    },
+    "pages": {
+      "login": {
+        "description": "Enter your credentials to access the dashboard.",
+        "fields": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "placeholders": {
+          "email": "email@example.com",
+          "password": "••••••••"
+        },
+        "actions": {
+          "login": "Sign in",
+          "loggingIn": "Signing in...",
+          "register": "Don't have an account? Register"
+        }
+      },
+      "error": {
+        "title": "Error",
+        "message": "Something went wrong",
+        "loadDescription": "Could not load data. Please try again shortly.",
+        "backHome": "Back to home"
+      },
+      "planning": {
+        "title": "Planned Missions"
+      },
+      "history": {
+        "title": "Route history",
+        "totals": {
+          "distance": "Distance",
+          "time": "Time",
+          "fuel": "Fuel",
+          "emissions": "Emissions",
+          "score": "EcoScore",
+          "tep": "TEP",
+          "potentialSaving": "Potential savings",
+          "fuelEconomy": "Fuel Economy"
+        }
+      },
+      "vehicles": {
+        "searchPlaceholder": "Search vehicles...",
+        "loading": "Loading..."
+      },
+      "msBox": {
+        "searchPlaceholder": "Search by OBU, vehicle, customer...",
+        "loading": "Loading...",
+        "unknownCustomer": "Unknown customer",
+        "unassignedTitle": "Unassigned MSBox",
+        "customerLabel": "Customer",
+        "expandAllGroups": "Expand all groups",
+        "collapseAllGroups": "Collapse all groups",
+        "copyClientId": "Copy customer ID",
+        "copyClientIdSuccess": "Customer ID copied",
+        "copyClientIdError": "Could not copy customer ID"
+      },
+      "users": {
+        "searchPlaceholder": "Search users...",
+        "loading": "Loading...",
+        "lastAccess": "Last access",
+        "neverAccessed": "Never accessed"
+      },
+      "messaging": {
+        "filterAll": "All",
+        "filterOnline": "Online",
+        "searchPlaceholder": "Search vehicles...",
+        "conversationMenuAriaLabel": "Conversation actions menu",
+        "openRealtimeLabel": "View mission",
+        "chatWelcomeTitle": "Welcome to messaging",
+        "chatWelcomeDescription": "From here you can track updates from your vehicles and chat with them directly via direct messages.",
+        "chatEmptyTitle": "No messages yet",
+        "chatEmptyDescription": "When you receive a message, it will appear here.",
+        "noMoreMessages": "No more messages",
+        "messageInputPlaceholder": "Write a message...",
+        "sendMessage": "Send",
+        "sendAlert": "Send alert",
+        "sendingMessage": "Sending...",
+        "attachMessageAriaLabel": "Attach",
+        "moreDeviceActionsAriaLabel": "More device actions",
+        "actionSwitchVersion": "Change version",
+        "actionRefreshDevice": "Refresh",
+        "sendError": "Error sending message"
+      },
+      "realtime": {
+        "title": "Homepage",
+        "searchPlaceholder": "Search...",
+        "table": {
+          "columns": {
+            "vehicle": "Vehicle",
+            "score": "EcoScore",
+            "fuelEconomy": "Fuel Economy",
+            "consumption": "Consumption",
+            "emissions": "Emissions"
+          }
+        },
+        "details": {
+          "backToVehicles": "Back to vehicles",
+          "details": "Details",
+          "charts": "Charts",
+          "lastUpdate": "Updated at",
+          "start": "Start",
+          "data": {
+            "distanceTraveled": "km traveled",
+            "travelTime": "Travel time",
+            "remainingTime": "Remaining time",
+            "temperature": "Temperature",
+            "position": "Position",
+            "travelTimeUnit": "min",
+            "environmentalSensors": "Environmental sensors",
+            "probe1001": "Probe 1001",
+            "probe1003": "Probe 1003",
+            "probe1004": "Probe 1004",
+            "probe1009": "Probe 1009",
+            "probePayload": {
+              "temperature": {
+                "label": "Temperature",
+                "unit": "°C"
+              },
+              "humidity": {
+                "label": "Humidity",
+                "unit": "%"
+              },
+              "voc": {
+                "label": "Air quality (VOC)",
+                "unit": "ppb"
+              },
+              "co2": {
+                "label": "CO₂ level",
+                "unit": "ppm"
+              },
+              "batteryLevel": {
+                "label": "Battery level",
+                "unit": "%"
+              },
+              "lux": {
+                "label": "Light level",
+                "unit": "lx"
+              },
+              "presence": {
+                "label": "Presence (PIR)"
+              },
+              "pressure": {
+                "label": "Atmospheric pressure",
+                "unit": "hPa"
+              }
+            },
+            "probeFieldTemperature": "Temperature",
+            "probeFieldHumidity": "Humidity",
+            "probeFieldVoc": "Air quality (VOC)",
+            "probeFieldCo2": "CO₂ level",
+            "probeFieldBatteryLevel": "Battery level",
+            "probeFieldLux": "Light level",
+            "probeFieldPresence": "Presence (PIR)",
+            "probeFieldPressure": "Atmospheric pressure",
+            "internalTemperature": "Internal temperature",
+            "internalHumidity": "Internal humidity",
+            "airQualityVoc": "Air quality (VOC)",
+            "co2Level": "CO₂ level",
+            "sensorBatteryLevel": "Sensor battery level",
+            "externalTemperature": "External temperature",
+            "externalHumidity": "External humidity",
+            "lightLevel": "Light level",
+            "presencePir": "Presence (PIR)",
+            "atmosphericPressure": "Atmospheric pressure",
+            "yes": "Yes",
+            "no": "No",
+            "true": "True",
+            "false": "False"
+          }
+        }
+      }
+    },
+    "form": {
+      "fleets": {
+        "customer": {
+          "label": "Fleet",
+          "placeholder": "Enter the fleet name",
+          "validation": {
+            "required": "Fleet name is required"
+          }
+        },
+        "color": {
+          "label": "Color",
+          "ariaLabel": "Color {{color}}",
+          "validation": {
+            "required": "Select a color",
+            "invalid": "Select a valid color"
+          }
+        }
+      },
+      "msBox": {
+        "general": {
+          "msbox_id": {
+            "label": "MSBox ID",
+            "validation": {
+              "required": "MSBox ID is required"
+            }
+          },
+          "veicolo": {
+            "label": "Vehicle"
+          },
+          "id_veicolo": {
+            "label": "Vehicle ID"
+          },
+          "msbox_version": {
+            "label": "Version"
+          },
+          "msbox_state": {
+            "label": "State",
+            "empty": "No MSBox states available."
+          },
+          "comment": {
+            "label": "Comment"
+          }
+        },
+        "sim": {
+          "sim_eid": {
+            "label": "EID"
+          },
+          "sim_network": {
+            "label": "Network",
+            "empty": "No SIM network options available."
+          },
+          "sim_state": {
+            "label": "State",
+            "empty": "No SIM states available."
+          },
+          "sim_activation_date": {
+            "label": "Activation date"
+          }
+        },
+        "raspberry": {
+          "pcb_version": {
+            "label": "PCB version"
+          },
+          "pcb_id": {
+            "label": "PCB ID"
+          },
+          "rpi_serial": {
+            "label": "Raspberry serial"
+          },
+          "rpi_ip": {
+            "label": "Raspberry IP"
+          },
+          "rpi_version": {
+            "label": "Raspberry version"
+          },
+          "rpi_id": {
+            "label": "Raspberry ID"
+          },
+          "rpi_send_csv": {
+            "label": "Send CSV from Raspberry"
+          }
+        },
+        "smartphone": {
+          "smartphone_model": {
+            "label": "Model"
+          },
+          "smartphone_imei": {
+            "label": "IMEI"
+          },
+          "smartphone_mdm": {
+            "label": "MDM"
+          },
+          "smartphone_configurated": {
+            "label": "Configured"
+          }
+        },
+        "texa": {
+          "label": "Texa dongle ID",
+          "placeholder": "Enter dongle ID",
+          "check": "Verify",
+          "notAvailable": "Dongle ID not available",
+          "associated": "Dongle associated",
+          "error": "Error loading dongle",
+          "associatedLabel": "Dongle associated",
+          "clear": "Remove",
+          "fields": {
+            "id": "ID",
+            "dongle_id": "Dongle ID",
+            "serial": "Serial",
+            "serialNumber": "Serial number",
+            "bt_pin": "BT PIN",
+            "ins_date": "Installation date",
+            "mac_address": "MAC address",
+            "model": "Model",
+            "version": "Version",
+            "type": "Type",
+            "status": "Status"
+          }
+        }
+      },
+      "vehicles": {
+        "general": {
+          "veicolo": {
+            "label": "License plate",
+            "placeholder": "Enter the license plate",
+            "validation": {
+              "min": "License plate must be at least 3 characters"
+            }
+          },
+          "user_id": {
+            "label": "Associated users",
+            "placeholder": "Select users",
+            "loading": "Loading...",
+            "noCustomer": "Select a customer to see users.",
+            "empty": "No users found."
+          },
+          "registration": {
+            "label": "Registration document",
+            "validation": {
+              "required": "Registration document is required"
+            }
+          }
+        },
+        "info": {
+          "vehicleType": {
+            "label": "Type",
+            "placeholder": "Select type",
+            "placeholderSelectTypeFirst": "Select a type first"
+          },
+          "vehicleMake": {
+            "label": "Make",
+            "placeholder": "Select make",
+            "validation": {
+              "required": "Make is required"
+            }
+          },
+          "vehicleOnlyModel": {
+            "label": "Model",
+            "placeholder": "Select model",
+            "validation": {
+              "required": "Model is required"
+            }
+          },
+          "vehiclePower": {
+            "label": "Power",
+            "placeholder": "Select power",
+            "placeholderSelectModelFirst": "Select a model first",
+            "validation": {
+              "required": "Power is required"
+            }
+          },
+          "vehicleModel": {
+            "validation": {
+              "required": "Vehicle model is required"
+            }
+          },
+          "fuel": {
+            "label": "Fuel",
+            "placeholder": "Select fuel",
+            "validation": {
+              "required": "Fuel is required"
+            }
+          },
+          "reset": "Reset"
+        },
+        "settings": {
+          "version": {
+            "label": "Version",
+            "placeholder": "Select version"
+          },
+          "msbox_id": {
+            "label": "MSBox ID",
+            "placeholder": "Enter MSBox ID",
+            "validation": {
+              "required": "MSBox ID is required"
+            },
+            "loading": "Loading...",
+            "empty": "No MSBox available."
+          },
+          "id_dispositivo": {
+            "label": "Device ID",
+            "placeholder": "Enter device ID",
+            "validation": {
+              "required": "Device ID is required"
+            }
+          },
+          "id_cliente": {
+            "label": "Client ID",
+            "placeholder": "Enter client ID",
+            "validation": {
+              "required": "Client ID is required"
+            },
+            "loading": "Loading...",
+            "empty": "No customers available."
+          }
+        }
+      },
+      "users": {
+        "general": {
+          "username": {
+            "label": "Username",
+            "placeholder": "Enter username",
+            "validation": {
+              "required": "Username is required"
+            }
+          },
+          "nome": {
+            "label": "Name",
+            "placeholder": "Enter name",
+            "validation": {
+              "required": "Name is required"
+            }
+          },
+          "id_clienti": {
+            "label": "Customer",
+            "placeholder": "Select customer",
+            "loading": "Loading...",
+            "empty": "No customers available.",
+            "validation": {
+              "required": "Customer is required"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter email",
+            "validation": {
+              "required": "Email is required",
+              "invalid": "Enter a valid email"
+            }
+          },
+          "emailConfirm": {
+            "label": "Confirm Email",
+            "placeholder": "Confirm email",
+            "validation": {
+              "required": "Email confirmation is required",
+              "invalid": "Enter a valid email",
+              "mismatch": "Emails do not match"
+            }
+          },
+          "password": {
+            "label": "Password",
+            "sublabel": "Enter the password twice to confirm",
+            "placeholder": "Enter password",
+            "tooltip": "The new password must be <strong>at least 8 characters long</strong> and must contain at least one uppercase letter, one lowercase letter, one number and one special character. It must not contain spaces.",
+            "generate": "Generate",
+            "copy": "Copy",
+            "generatedAndCopied": "Password generated and copied to clipboard",
+            "generated": "Password generated",
+            "copied": "Password copied to clipboard",
+            "empty": "No password to copy",
+            "copyError": "Error copying password",
+            "validation": {
+              "min": "Password must be at least 8 characters"
+            }
+          },
+          "passwordEdit": {
+            "label": "New Password",
+            "placeholder": "Leave empty to keep unchanged"
+          },
+          "passwordConfirm": {
+            "label": "Confirm Password",
+            "label.edit": "Confirm New Password",
+            "placeholder": "Confirm password",
+            "placeholder.edit": "Confirm new password",
+            "validation": {
+              "min": "Password must be at least 8 characters",
+              "mismatch": "Passwords do not match"
+            }
+          },
+          "id_cliente": {
+            "label": "Customer",
+            "placeholder": "Select customer",
+            "loading": "Loading...",
+            "empty": "No customers available.",
+            "validation": {
+              "required": "Customer is required"
+            }
+          },
+          "enabled": {
+            "label": "Enable Login",
+            "description": "If enabled, the user will be able to access the portal."
+          }
+        },
+        "permissions": {
+          "title": "Role and permissions",
+          "description": "App role and dashboard access level.",
+          "rank": {
+            "label": "App role",
+            "placeholder": "Select a role",
+            "validation": {
+              "required": "Role is required"
+            }
+          },
+          "userRank": {
+            "label": "App role",
+            "placeholder": "Select a role",
+            "validation": {
+              "required": "Role is required"
+            }
+          },
+          "perm": {
+            "label": "Dashboard permissions",
+            "placeholder": "Select dashboard permissions",
+            "validation": {
+              "required": "Dashboard permissions are required"
+            }
+          }
+        }
+      },
+      "preRouteStep1": {
+        "title": "Vehicle Configuration",
+        "vehicleId": {
+          "label": "Vehicle Selection",
+          "helperText": "Enter the license plate to search for the vehicle",
+          "placeholder": "Enter the vehicle license plate",
+          "error": "Enter a valid license plate"
+        },
+        "vehicleWeight": {
+          "label": "Total Weight (Tons)",
+          "helperText": "Enter the total weight of the vehicle",
+          "error": "Enter a valid weight"
+        },
+        "payload": {
+          "label": "Payload (Tons)",
+          "helperText": "Enter the vehicle payload",
+          "error": "Enter a valid payload"
+        },
+        "axleCount": {
+          "label": "Number of axles",
+          "helperText": "Enter the number of axles",
+          "error": "Enter a valid number of axles"
+        },
+        "submit": "Continue",
+        "error": {
+          "title": "Error",
+          "message": "Something went wrong"
+        }
+      },
+      "preRouteStep2": {
+        "title": "Route Configuration",
+        "description": "Enter route data or choose from planned ones",
+        "submit": "Continue",
+        "quota": {
+          "label": "Routing calls available",
+          "loading": "Checking quota availability...",
+          "error": "Cannot fetch quota"
+        },
+        "date": {
+          "label": "Arrival date and time",
+          "error": "Enter a valid date"
+        },
+        "startLocation": {
+          "label": "Origin",
+          "placeholder": "Enter the departure address",
+          "error": "Enter a valid address"
+        },
+        "endLocation": {
+          "label": "Destination",
+          "placeholder": "Enter the destination",
+          "error": "Enter a valid address"
+        },
+        "stops": {
+          "label": "Intermediate stops",
+          "placeholder": "Enter the stop name",
+          "itemLabel": "Intermediate stop",
+          "error": "Enter a valid name",
+          "add": "Add stop"
+        },
+        "optimizeRoute": "Optimize route"
+      },
+      "createMission": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter the mission name"
+        },
+        "repeat": {
+          "label": "Recurring mission",
+          "description": "Enable creation of missions that repeat on selected weekdays"
+        },
+        "repeatUntil": {
+          "label": "Repeat until"
+        },
+        "repeatDays": {
+          "label": "Weekdays",
+          "description": "Select which weekdays the mission should repeat",
+          "mon": "Mon",
+          "tue": "Tue",
+          "wed": "Wed",
+          "thu": "Thu",
+          "fri": "Fri",
+          "sat": "Sat",
+          "sun": "Sun"
+        },
+        "success": "Association successful!"
+      },
+      "editMission": {
+        "vehicle": {
+          "label": "Vehicle",
+          "placeholder": "Select a vehicle",
+          "searchPlaceholder": "Search vehicle...",
+          "error": "Enter a valid vehicle",
+          "emptyMessage": "No vehicles found"
+        },
+        "date": {
+          "label": "Date and time",
+          "placeholder": "Enter a date",
+          "error": "Enter a valid date"
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter the mission name",
+          "error": "Enter a valid name"
+        },
+        "enabled": {
+          "label": "Mission enabled",
+          "description": "Allows the vehicle to receive the mission."
+        },
+        "repeat": {
+          "label": "Recurring mission",
+          "description": "Repeats the mission on the selected days."
+        },
+        "repeatUntil": {
+          "label": "Repeat until",
+          "error": "Select the recurrence end date",
+          "afterStartError": "The recurrence end must be after the start"
+        },
+        "repeatDays": {
+          "label": "Weekdays",
+          "description": "Select the days when the mission repeats",
+          "error": "Select at least one day",
+          "mon": "Mon",
+          "tue": "Tue",
+          "wed": "Wed",
+          "thu": "Thu",
+          "fri": "Fri",
+          "sat": "Sat",
+          "sun": "Sun"
+        }
+      },
+      "historyReport": {
+        "title": "Export History Report",
+        "description": "Configure options for the report to export.",
+        "reportType": {
+          "label": "Report type",
+          "error": "Select a report type"
+        },
+        "outputType": {
+          "label": "Output format",
+          "error": "Select an output format"
+        },
+        "lang": {
+          "label": "Report language",
+          "error": "Select a language"
+        },
+        "withComparison": {
+          "label": "Compare with a historical period",
+          "description": "Adds a comparison period to the report."
+        },
+        "secondInterval": {
+          "placeholder": "Select a comparison period",
+          "error": "Select a valid comparison period"
+        },
+        "download": "Download",
+        "downloading": "Downloading...",
+        "error": "Error exporting the report. Please try again."
+      },
+      "shared": {
+        "placeInput": {
+          "searchPlaceholder": "Search for a place...",
+          "emptyMessage": "No place found",
+          "loading": "Searching…",
+          "minChars": "Enter at least 2 characters",
+          "resolving": "Loading address…"
+        },
+        "next": "Next",
+        "back": "Back",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete"
+      },
+      "login": {
+        "email": {
+          "validation": {
+            "invalid": "Enter a valid email"
+          }
+        },
+        "password": {
+          "validation": {
+            "required": "Password is required"
+          }
+        }
+      }
+    },
+    "enums": {
+      "fuelTypeGroupId": {
+        "GroupPluginHybridElectricVehicleId": "Hybrid Electric",
+        "GroupFuelCellElectricVehicleId": "Hydrogen",
+        "GroupBatteryElectricVehicleId": "Electric",
+        "GroupManuallyClassifiedPowertrainId": "Other",
+        "GroupPropaneLiquifiedPetroleumGasId": "LPG",
+        "GroupOtherFuelId": "Other",
+        "GroupCompressedNaturalGasId": "CNG",
+        "GroupBiodieselId": "Biodiesel",
+        "GroupEthanolId": "Ethanol",
+        "GroupDieselId": "Diesel",
+        "GroupGasolinePetrolId": "Gasoline"
+      },
+      "vehicleType": {
+        "car": "Car",
+        "truck": "Truck",
+        "bus": "Bus",
+        "van": "Van"
+      },
+      "vehicleFuelType": {
+        "diesel": "Diesel",
+        "biodiesel": "Biodiesel",
+        "gasoline": "Gasoline",
+        "elettric": "Electric",
+        "hybrid": "Hybrid",
+        "other": "Other",
+        "natural gas": "Natural Gas",
+        "gpl": "LPG",
+        "fuel cells": "Fuel Cell"
+      },
+      "notificationType": {
+        "deviation-handled": "Deviation Handled",
+        "show-notification": "Notification",
+        "alert-response": "Alert Response",
+        "show-alert": "Alert",
+        "shutdown": "Shutdown",
+        "shutdown-fail": "Automatic shutdown",
+        "start": "Start",
+        "switch-version": "Version switch",
+        "refresh-app": "Refresh"
+      },
+      "userRole": {
+        "guest": "Guest",
+        "user": "Driver",
+        "vodafone": "Vodafone",
+        "admin": "Administrator"
+      },
+      "UserPermission": {
+        "SUPERADMIN": "Super Admin",
+        "ADMIN": "Admin",
+        "FLEET_MANAGER": "Fleet Manager",
+        "DRIVER": "Driver",
+        "SERVICE": "Service"
+      },
+      "NetworkProvider": {
+        "VODAFONE": "Vodafone",
+        "POD": "POD"
+      },
+      "SimState": {
+        "ACTIVE": "Active",
+        "NOT_ACTIVE": "Not active",
+        "SUSPENDED": "Suspended"
+      },
+      "ObuState": {
+        "TO_BE_CONFIGURED": "To be configured",
+        "READY": "Ready",
+        "ASSEMBLED": "Assembled",
+        "SHIPPING": "Shipping",
+        "DELIVERED": "Delivered",
+        "ACTIVE": "Active"
+      },
+      "HistoryReportExportType": {
+        "advanced": "Advanced",
+        "syntetic": "Synthetic"
+      },
+      "HistoryReportExportOutputType": {
+        "pdf": "PDF",
+        "excel": "Excel"
+      },
+      "Language": {
+        "it": "Italian",
+        "en": "English"
+      }
+    },
+    "enumsDescription": {
+      "HistoryReportExportType": {
+        "advanced": "Full report with charts and per-route details.",
+        "syntetic": "Compact summary with key data."
+      },
+      "HistoryReportExportOutputType": {
+        "pdf": "Formatted document, ready to print.",
+        "excel": "Spreadsheet for custom analysis."
+      }
+    },
+    "shared": {
+      "units": {
+        "km": "km",
+        "ton": "ton",
+        "axle": "axles",
+        "euro": "€",
+        "kgCo2": "kg CO₂",
+        "l": "l",
+        "km/h": "km/h",
+        "km/l": "km/l",
+        "kg": "kg",
+        "CO2": "CO₂",
+        "m": "m",
+        "kmh": "km/h"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Select a date"
+      },
+      "time": {
+        "label": "Time",
+        "placeholder": "Select a time",
+        "yesterday": "Yesterday"
+      },
+      "pagination": {
+        "page": "Page",
+        "of": "of",
+        "previous": "Previous",
+        "next": "Next",
+        "noResults": "No results found."
+      },
+      "vehicleStatus": {
+        "realtime": "Moving",
+        "stopped": "Stopped",
+        "unknown": "Unknown"
+      },
+      "places": {
+        "yourLocation": "Your location"
+      },
+      "connectionStatus": {
+        "online": "Online",
+        "offline": "Offline"
+      },
+      "loading": "Loading...",
+      "error": "Error"
+    }
+  }
+}
