@@ -1,0 +1,1 @@
+var u=(n=>(n.REALTIME="realtime",n.STOPPED="stopped",n.UNKNOWN="unknown",n))(u||{});const a=n=>!!n&&typeof n.lat=="number"&&typeof n.lng=="number"&&!(n.lat===0&&n.lng===0),i=n=>!!n&&n.items.length>0,d=(n,s,t)=>{if(!i(t)||t.items.map(r=>r.id).includes(n))return!0;const e=t.excludeOthers;return!e?.length||!e.includes(s)};export{u as V,i as h,a as i,d as s};
