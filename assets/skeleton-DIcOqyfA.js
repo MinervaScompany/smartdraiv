@@ -1,0 +1,1 @@
+import{j as n,c as e,ah as r}from"./index-Bvele4rM.js";const o=r("animate-pulse rounded-lg",{variants:{variant:{default:"bg-muted",glass:"bg-[color-mix(in_srgb,var(--gray-4)_28%,transparent)]"}},defaultVariants:{variant:"default"}});function l({className:a,variant:t,...s}){return n.jsx("div",{"data-slot":"skeleton",className:e(o({variant:t}),a),...s})}export{l as S};
