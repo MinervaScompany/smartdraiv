@@ -1,0 +1,1 @@
+import{ay as t}from"./index-CRKg4k0y.js";import{u as o}from"./MapLayoutStore-00ukl4pJ.js";const c=e=>o(t(a=>{const s=a.layouts[e];return{staticMapItems:s?.staticMapItems,shapes:s?.shapes,vehicles:s?.vehicles,focusedItems:s?.focusedItems,command:s?.command,showMap:s?.showMap??!0,sidePanelWidth:s?.sidePanelWidth??"full"}}));export{c as u};
