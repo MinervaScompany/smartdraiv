@@ -1,0 +1,1 @@
+import{cL as e}from"./index-BQHPIQ9s.js";function i(n){return e(n)}function o(n){return e(n)}const s=new Set(["refresh-app","switch-version"]);function c(n,t){const a=(t.action??t.state??"default").toLowerCase();return s.has(a)?e(n):!0}export{c as a,i as b,o as c};
