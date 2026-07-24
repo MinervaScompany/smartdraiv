@@ -1,0 +1,1 @@
+import{r as e}from"./index-Bkxiu47N.js";const c=r=>e.createElement("svg",{width:16,height:16,viewBox:"0 0 16 16",fill:"none",xmlns:"http://www.w3.org/2000/svg",...r},e.createElement("circle",{cx:8.00293,cy:8.00293,r:7.25293,stroke:"var(--border)",strokeWidth:1.5}),e.createElement("circle",{cx:8.00355,cy:8.00306,r:5.2433,fill:"currentColor"}));export{c as S};
