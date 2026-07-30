@@ -1,0 +1,1 @@
+import"./useMapScene-CWQFwSGU.js";function u(o){if(!o)return[];const h=o.length;let n=0;const r=[];let i=0,s=0;for(;n<h;){let l=0,t=0,e;do e=o.charCodeAt(n++)-63,t|=(e&31)<<l,l+=5;while(e>=32);const a=t&1?~(t>>1):t>>1;i+=a,l=0,t=0;do e=o.charCodeAt(n++)-63,t|=(e&31)<<l,l+=5;while(e>=32);const c=t&1?~(t>>1):t>>1;s+=c,r.push([i*1e-5,s*1e-5])}return r}export{u as d};
