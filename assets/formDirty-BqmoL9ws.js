@@ -1,0 +1,1 @@
+function u(n,e){if(e===!0||Array.isArray(e))return{...n};if(!n||typeof n!="object"||!e||typeof e!="object")return{};const s=e,r={},c=n;for(const[t,o]of Object.entries(s))if(t in c){if(o===!0)r[t]=c[t];else if(typeof o=="object"&&o!==null){const f=u(c[t]??{},o);Object.keys(f).length>0&&(r[t]=f)}}return r}export{u as g};
