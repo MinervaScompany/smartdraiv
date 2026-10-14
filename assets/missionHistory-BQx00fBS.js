@@ -1,0 +1,1 @@
+const n="plates",s="page",o=20,t=e=>({lat:e.coordinates[1],lng:e.coordinates[0]}),a=({dati:e})=>({distance:e.distance,fuelConsumed:e.fuelConsumed,duration:e.duration,tep:e.tep,emission:e.emission,score:e.score,percentEnergySavingOptReal:e.percentEnergySavingOptReal,estimatedMass:e.mtot,navigationCount:1});export{n as M,s as P,o as a,t as g,a as n};
