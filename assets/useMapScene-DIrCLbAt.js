@@ -1,0 +1,1 @@
+import{aX as t}from"./index-BZW9MzLv.js";import{u as o}from"./MinervasResultsMap-ko-MjS7P.js";const c=e=>o(t(a=>{const s=a.layouts[e];return{staticMapItems:s?.staticMapItems,shapes:s?.shapes,vehicles:s?.vehicles,focusedItems:s?.focusedItems,command:s?.command,showMap:s?.showMap??!0,sidePanelWidth:s?.sidePanelWidth??"full"}}));export{c as u};
