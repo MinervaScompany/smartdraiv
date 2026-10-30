@@ -1,0 +1,1 @@
+const n=e=>({lat:e.coordinates[1],lng:e.coordinates[0]}),o=({dati:e})=>({distance:e?.distance??0,fuelConsumed:e?.fuelConsumed??0,duration:e?.duration??0,tep:e?.tep??0,emission:e?.emission??0,score:e?.score,percentEnergySavingOptReal:e?.percentEnergySavingOptReal,estimatedMass:e?.mtot??0,navigationCount:1});export{n as g,o as n};
