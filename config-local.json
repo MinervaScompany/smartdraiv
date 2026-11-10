@@ -1,0 +1,19 @@
+{
+  "name": "smart drAIV",
+  "supportEmail": "info@minervas.it",
+  "version": "0.0.1",
+  "items": [
+    {
+      "url": "index.html",
+      "path": "/",
+      "icon": "smart-drAIV-icon.svg",
+      "svgIcon": "smart-drAIV-icon.svg",
+      "category": "SustainabilityId",
+      "menuName": {
+        "en": "smart drAIV",
+        "it": "smart drAIV"
+      }
+    }
+  ],
+  "isSigned": false
+}
