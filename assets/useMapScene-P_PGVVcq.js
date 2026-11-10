@@ -1,0 +1,1 @@
+import{aD as t}from"./index-BZojkB-6.js";import{u as o}from"./MinervasResultsMap-CtTK7BLr.js";const c=e=>o(t(a=>{const s=a.layouts[e];return{staticMapItems:s?.staticMapItems,shapes:s?.shapes,vehicles:s?.vehicles,focusedItems:s?.focusedItems,command:s?.command,showMap:s?.showMap??!0,sidePanelWidth:s?.sidePanelWidth??"full"}}));export{c as u};
